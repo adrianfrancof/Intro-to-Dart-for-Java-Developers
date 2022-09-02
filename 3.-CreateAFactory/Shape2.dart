@@ -1,3 +1,8 @@
+// If the function is called with any string other than 'circle' or 'square', it throws an exception.
+// The Dart SDK defines classes for many common exceptions, or you can implement the Exception class to create more specific exceptions or (as in this example) you can throw a string that describes the problem encountered.
+// When an exception is encountered, DartPad reports Uncaught. To see information that's more helpful, wrap the code in a try-catch statement and print the exception. As an optional exercise, check out this DartPad example.
+// To use a single quote inside a string, either escape the embedded quote using slash ('Can\'t create $type.') or specify the string with double quotes ("Can't create $type.").
+
 import 'dart:math';
 
 //Option 2: Create a factory constructor
